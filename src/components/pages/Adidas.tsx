@@ -5,14 +5,14 @@ import adidasModel3 from './../../assets/Abibas.webp'
 import {S} from './_styles';
 import {Link} from 'react-router-dom';
 
-export type AdidasItem = {
+export type SneakersItem = {
     id: number
     model: string;
     collection: string;
     price: string;
     picture: string;
 }
-export const adidasArr: AdidasItem[] = [
+export const adidasArr: SneakersItem[] = [
     {
         id: 1,
         model: 'ADIDAS ADIFOM TRXN',

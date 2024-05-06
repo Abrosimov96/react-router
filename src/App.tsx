@@ -40,9 +40,9 @@ function App() {
                         <Route path="/" element={<Navigate to={PATH.ADIDAS}/>}/>
 
                         <Route path={PATH.ADIDAS} element={<Adidas/>}/>
-                        <Route path={`${PATH.ADIDAS}/:id`} element={<Model />}/>
                         <Route path={PATH.PUMA} element={<Puma/>}/>
                         <Route path={PATH.ABIBAS} element={<Abibas/>}/>
+                        <Route path={`:model/:id`} element={<Model />}/>
 
                         {/*<Route path={PATH.ERROR} element={<Error404/>}/>*/}
                         <Route path="/*" element={<Error404/>}/>
